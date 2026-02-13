@@ -1,0 +1,42 @@
+{
+  "name": "dieter-rams-theme",
+  "displayName": "Weniger, aber besser — A Dieter Rams Theme",
+  "description": "A VS Code color theme inspired by the design philosophy and product palette of Dieter Rams for Braun. Less, but better.",
+  "version": "1.0.0",
+  "publisher": "rogue",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dieter rams",
+    "braun",
+    "minimal",
+    "light",
+    "dark",
+    "design"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dieter Rams — Light (Snow White's Coffin)",
+        "uiTheme": "vs",
+        "path": "./themes/rams-light.json"
+      },
+      {
+        "label": "Dieter Rams — Dark (RT 20)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rams-dark.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
